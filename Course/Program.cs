@@ -21,7 +21,7 @@ namespace Course
             BusinessAccount acc5 = (BusinessAccount)acc3; //Como acc3 foi instanciado como BusinessAccount, ela pode ser convertida para este mesmo tipo
             acc5.Loan(100.0);
 
-            //SavingsAccount acc6 = (SavingsAccount)acc3; (ERRO)
+            //SavingsAccount acc6 = (SavingsAccount)acc3; (ERRO) Não se pode instaciar um objeto de um tipo diferente do que já foi instanciado antes
             if(acc4 is SavingsAccount)
             {
                 //SavingsAccount acc6 = (SavingsAccount)acc4;
